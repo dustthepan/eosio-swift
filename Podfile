@@ -37,6 +37,3 @@ target 'EosioSwift' do
   pod 'MaterialComponents/FlexibleHeader'
   pod 'MaterialComponents/Slider'
 end
-
-
-
