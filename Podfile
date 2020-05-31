@@ -29,4 +29,8 @@ target 'EosioSwift' do
     pod 'MaterialComponents/BottomNavigation'
     pod 'MaterialComponents/FeatureHighlight'
     pod 'MaterialComponents/schemes/Color'
+    pod 'MaterialComponents/HeaderStackView'
+    pod 'MaterialComponents/FlexibleHeader'
+    pod 'MaterialComponents/Slider'
+    
   end
