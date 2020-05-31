@@ -42,4 +42,4 @@ end
     pod 'MaterialComponents/HeaderStackView'
     pod 'MaterialComponents/FlexibleHeader'
     pod 'MaterialComponents/Slider'
-end
+ end
