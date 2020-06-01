@@ -652,3 +652,4 @@ public class EosioTransaction: Codable {
     }
 
 }
+

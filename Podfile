@@ -14,3 +14,15 @@ target 'EosioSwift' do
   pod 'SwiftLint'
   pod 'PromiseKit', '~> 6.8'
 end
+
+
+
+target 'QRewards' do
+  use_frameworks!
+  pod 'EosioSwift', '~> 0.4.0" # pod for this library'
+
+  pod 'EosioSwiftAbieosSerializationProvider', '~> 0.4.0'
+  pod 'EosioSwiftSoftkeySignatureProvider', '~> 0.4.0'
+end
+
+
