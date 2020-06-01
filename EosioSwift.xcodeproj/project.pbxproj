@@ -20,7 +20,7 @@
 		28DDAB0A2237030E008FB1CC /* EosioKeySignatureExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DDAB092237030E008FB1CC /* EosioKeySignatureExtensionTests.swift */; };
 		28FE03982209D44700CCC977 /* EosioTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE03972209D44700CCC977 /* EosioTransaction.swift */; };
 		28FE039A2209D4C100CCC977 /* EosioTransactionAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FE03992209D4C100CCC977 /* EosioTransactionAction.swift */; };
-		374D03F1248563A900515317 /* PedometerRewardSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D03F0248563A900515317 /* PedometerRewardSystem.swift */; };
+		374D03F42485763500515317 /* Smart Contracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374D03F32485763500515317 /* Smart Contracts.swift */; };
 		3E298A4E226E0F2F00B964B7 /* EosioRpcProviderEndpointsCallbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E298A4D226E0F2F00B964B7 /* EosioRpcProviderEndpointsCallbacks.swift */; };
 		3E298A50226E113700B964B7 /* EosioRpcProviderEndpointsForProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E298A4F226E113700B964B7 /* EosioRpcProviderEndpointsForProtocol.swift */; };
 		3EE762A22268C48D00D8DC33 /* EosioRpcProviderEndpointsPromises.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE762A12268C48D00D8DC33 /* EosioRpcProviderEndpointsPromises.swift */; };
@@ -95,7 +95,7 @@
 		28FE03992209D4C100CCC977 /* EosioTransactionAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EosioTransactionAction.swift; sourceTree = "<group>"; };
 		2A3178BBCA00EA01A2CA0226 /* Pods-EosioSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EosioSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-EosioSwift/Pods-EosioSwift.release.xcconfig"; sourceTree = "<group>"; };
 		353A658F3689D83286AB270D /* Pods-EosioSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EosioSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EosioSwiftTests/Pods-EosioSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
-		374D03F0248563A900515317 /* PedometerRewardSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedometerRewardSystem.swift; sourceTree = "<group>"; };
+		374D03F32485763500515317 /* Smart Contracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Smart Contracts.swift"; sourceTree = "<group>"; };
 		3E298A4D226E0F2F00B964B7 /* EosioRpcProviderEndpointsCallbacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EosioRpcProviderEndpointsCallbacks.swift; sourceTree = "<group>"; };
 		3E298A4F226E113700B964B7 /* EosioRpcProviderEndpointsForProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EosioRpcProviderEndpointsForProtocol.swift; sourceTree = "<group>"; };
 		3EE762A12268C48D00D8DC33 /* EosioRpcProviderEndpointsPromises.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EosioRpcProviderEndpointsPromises.swift; sourceTree = "<group>"; };
@@ -210,14 +210,6 @@
 			path = EosioAbiProviderProtocol;
 			sourceTree = "<group>";
 		};
-		374D03EF2485634400515317 /* Smart Contract */ = {
-			isa = PBXGroup;
-			children = (
-				374D03F0248563A900515317 /* PedometerRewardSystem.swift */,
-			);
-			path = "Smart Contract";
-			sourceTree = "<group>";
-		};
 		3E298A4C226E0EF400B964B7 /* Endpoints */ = {
 			isa = PBXGroup;
 			children = (
@@ -251,7 +243,6 @@
 		6B80D26121FA6DDF00716A7B /* EosioSwift */ = {
 			isa = PBXGroup;
 			children = (
-				374D03EF2485634400515317 /* Smart Contract */,
 				B4E8F6BA2232003800FA7E63 /* Crypto */,
 				8F6B04BA22287A7B00215CD0 /* Extensions */,
 				8F6B04AF222879EC00215CD0 /* Foundation */,
@@ -263,6 +254,7 @@
 				28560292221F3E0300642377 /* EosioTransaction */,
 				6B80D26221FA6DDF00716A7B /* EosioSwift.h */,
 				6B80D26321FA6DDF00716A7B /* Info.plist */,
+				374D03F32485763500515317 /* Smart Contracts.swift */,
 			);
 			path = EosioSwift;
 			sourceTree = "<group>";
@@ -603,9 +595,9 @@
 				B466F0962229DA870082DC4E /* EosioSerializationProviderProtocol.swift in Sources */,
 				8F6B04B922287A5300215CD0 /* ZAssert.swift in Sources */,
 				B4178067226E472E00084A6E /* DynamicKey.swift in Sources */,
+				374D03F42485763500515317 /* Smart Contracts.swift in Sources */,
 				8F6B04C622287A9E00215CD0 /* ArrayExtensions.swift in Sources */,
 				28FE03982209D44700CCC977 /* EosioTransaction.swift in Sources */,
-				374D03F1248563A900515317 /* PedometerRewardSystem.swift in Sources */,
 				3E298A50226E113700B964B7 /* EosioRpcProviderEndpointsForProtocol.swift in Sources */,
 				B4E8F6BE22320AC700FA7E63 /* Base58String.swift in Sources */,
 				8FC41FEF225561D3006A76FF /* EosioRpcProvider.swift in Sources */,
